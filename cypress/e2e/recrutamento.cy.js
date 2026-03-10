@@ -16,5 +16,4 @@ describe('recrutamento', () => {
     cy.get('.btn').click()
     cy.contains('Erro').should('be.visible')
   })
-
 })
